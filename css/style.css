@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #232323;
+}
+
+.clear {
+    clear: both;
+}
