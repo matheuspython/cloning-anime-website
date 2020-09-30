@@ -14,3 +14,36 @@ body {
 .clear {
     clear: both;
 }
+
+header {
+    min-width: 1280px;
+    padding: 28px 2%;
+    background-color: #000000;
+    color: white;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.container input[type=text] {
+    background-color: black;
+    color: gray;
+    border: 0;
+    float: right;
+    display: inline-block;
+}
+
+header ul li {
+    cursor: pointer;
+    margin-right: 20px;
+    float: left;
+    display: inline-block;
+    list-style: none;
+}
+
+.animes-online {
+    font-size: 22px;
+    border-top: 0.1px solid white;
+}
