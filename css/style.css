@@ -111,8 +111,6 @@ main {
     margin-right: 8px;
 }
 
-.container-textos p {}
-
 .informacoes-anime ul li {
     display: inline-block;
     margin-right: 20px;
@@ -206,4 +204,34 @@ footer {
     background-color: red;
     height: 130px;
     cursor: pointer;
+}
+
+.container-episodeos {
+    width: 68%;
+    border-radius: 9px;
+    height: 758px;
+    background-color: #2e2e2e;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.video-contain {
+    margin: 20px 40px;
+    width: 90%;
+    border-radius: 25px;
+    height: auto;
+}
+
+.video {
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 80px;
+    float: left;
+}
+
+.video-contain ul {
+    font-style: none;
+    margin-left: 90px;
 }
