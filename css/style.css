@@ -59,7 +59,7 @@ main {
 .container-anime {
     border-radius: 9px;
     color: white;
-    width: 884px;
+    width: 920px;
     background: black;
     height: 300px;
 }
@@ -215,6 +215,13 @@ footer {
     margin-top: 10px;
 }
 
+.container-episodeos h3 {
+    padding-top: 9px;
+    margin-left: 20px;
+    border-bottom: 1px solid red;
+    width: 120px;
+}
+
 .video-contain {
     margin: 20px 40px;
     width: 90%;
@@ -234,4 +241,31 @@ footer {
 .video-contain ul {
     font-style: none;
     margin-left: 90px;
+}
+
+.container-informacoes-anime {
+    margin-top: 20px;
+    color: white;
+    margin-left: 50px;
+    width: 913px;
+    border-radius: 9px;
+    background-color: black;
+}
+
+.top-side ul li {
+    margin: 10px;
+    color: red;
+    display: inline-block;
+}
+
+.informacoes-conteudo ul li {
+    margin: 10px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.red {
+    color: #dd3333;
 }
