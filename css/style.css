@@ -43,7 +43,167 @@ header ul li {
     list-style: none;
 }
 
+main {
+    margin: 30px 0;
+}
+
+.main-container {
+    margin-left: 50px;
+}
+
 .animes-online {
     font-size: 22px;
     border-top: 0.1px solid white;
+}
+
+.container-anime {
+    border-radius: 9px;
+    color: white;
+    width: 884px;
+    background: black;
+    height: 300px;
+}
+
+.imagem-anime {
+    float: left;
+    border-radius: 9px;
+    border: 19px solid black;
+    width: 220px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: url('//image.tmdb.org/t/p/w185/ic9Gb4Zz09ns3JPYHdax8u5kt0n.jpg');
+}
+
+.container-textos p {
+    margin-top: 8px;
+    color: rgba(242, 238, 238, 0.844);
+}
+
+.container-textos h2 {
+    color: red;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.azul-escuro {
+    width: 25px;
+    border-radius: 10px;
+    height: 25px;
+    background-color: rgb(11, 21, 165);
+}
+
+.azul {
+    width: 25px;
+    border-radius: 10px;
+    height: 25px;
+    background-color: rgb(78, 178, 255);
+}
+
+.vermelho {
+    width: 25px;
+    border-radius: 10px;
+    height: 25px;
+    background-color: rgb(233, 28, 28);
+}
+
+.container-textos ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.container-textos p {}
+
+.informacoes-anime ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.informacoes-anime ul li a {
+    width: 55px;
+    height: 29px;
+    background-color: #dd3333;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+main footer {
+    margin-top: 13px;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+footer {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.container-1-footer {
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    width: 30%;
+    float: left;
+}
+
+.container-1-footer>.circulo {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #b81818;
+    border-radius: 20px;
+    float: left;
+}
+
+.container-1-footer>.circulo {
+    padding-top: 8px;
+    padding-left: 6px;
+}
+
+.container-2-footer {
+    width: 40%;
+    float: right;
+    font-size: 13px;
+}
+
+.container-1-footer div {
+    font-size: 10px;
+    padding-left: 50px;
+}
+
+.container-2-footer ul li {
+    display: inline-block;
+}
+
+.box-direita {
+    position: relative;
+    top: -298px;
+    right: 20px;
+    background-color: rgba(63, 57, 57, 0.96);
+    width: 300px;
+    margin: 0 auto;
+    height: 350px;
+    border-radius: 9px;
+    float: right;
+}
+
+.box-direita>.container-box {
+    width: 280px;
+    height: 320px;
+    margin: auto auto;
+}
+
+.box-direita h2 {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    border-bottom: 1px solid red;
+}
+
+.anime {
+    background-position: center;
+    background-size: cover;
+    margin-top: 3px;
+    margin-left: 5px;
+    border-radius: 9px;
+    display: inline-block;
+    width: 30%;
+    background-color: red;
+    height: 130px;
+    cursor: pointer;
 }
